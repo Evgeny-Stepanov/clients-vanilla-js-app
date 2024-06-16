@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38fe5561-45d9-45f6-9fc9-1b22767d2a8e" name="Changes" comment="" />
+    <list default="true" id="38fe5561-45d9-45f6-9fc9-1b22767d2a8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/_login.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +70,7 @@
       <recent name="D:\Web-development\js-projects\clients-pet-project\src\style" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build-dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -108,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build-dev" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build-dev" />
         <item itemvalue="npm.clear" />
         <item itemvalue="npm.build-prod" />
       </list>

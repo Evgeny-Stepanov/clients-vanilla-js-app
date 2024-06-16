@@ -10,19 +10,19 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 	<link rel="manifest" href="assets/site.webmanifest">
 	<title>&#128075; Привет гость!</title>
-<script defer src="main.5485bcd3b7e7c63ea8e5.js"></script></head>
+<script defer src="main.993a9ec4674b6a8b371f.js"></script></head>
 <body class="login__body">
 <main class="login__main container">
 	<div class="login__wrap">
 		<h1 class="login__title">Добро пожаловать в <span lang="en">Clients</span></h1>
 		<p class="login__text">
-			Наше приложение предназначено для удобной и эффективной записи клиентов в барбершоп. Теперь вы
-			можете забыть о бумажных журналах и неудобных звонках для записи. С помощью нашего приложения
+			Мое приложение предназначено для удобной и эффективной записи клиентов в барбершоп. Теперь вы
+			можете забыть о бумажных журналах и неудобных звонках для записи. С помощью Clients
 			вы сможете легко и быстро создавать профили клиентов, записывать их на удобное для них время и
 			следить за их историей посещений. Также вы сможете управлять расписанием мастеров и
-			контролировать загруженность салона. Наше приложение обеспечит вам надежную и безопасную базу
+			контролировать загруженность салона. Приложение обеспечит вам надежную и безопасную базу
 			данных клиентов, а также повысит уровень сервиса и удовлетворенность клиентов. Не откладывайте
-			на потом, скачивайте наше приложение и улучшайте свой бизнес уже сегодня!
+			на потом, используйте мое приложение и улучшайте свой бизнес уже сегодня!
 		</p>
 	</div>
 	<form action="/" class="login__form">
@@ -95,13 +95,13 @@
 			</ul>
 		</fieldset>
 
-		<p>
+		<p class="login__form-checkbox">
 			<label for="remember">Запомнить меня</label>
 			<input type="checkbox" name="remember" id="remember" checked>
 		</p>
 
 		<button
-			class=""
+			class="login__form-submit"
 			type="submit"
 		>
 			Войти
@@ -113,5 +113,57 @@
 		</p>
 	</form>
 </main>
+<div class="background-animation">
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+			 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+				<stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+				<stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+					attributeName="transform"
+					attributeType="XML"
+					type="translate"
+					dur="10s"
+					calcMode="spline"
+					values="270 230; -334 180; 270 230"
+					keyTimes="0; .5; 1"
+					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+					repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".6">
+				<animateTransform
+					attributeName="transform"
+					attributeType="XML"
+					type="translate"
+					dur="8s"
+					calcMode="spline"
+					values="-270 230;243 220;-270 230"
+					keyTimes="0; .6; 1"
+					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+					repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".9">
+				<animateTransform
+					attributeName="transform"
+					attributeType="XML"
+					type="translate"
+					dur="6s"
+					calcMode="spline"
+					values="0 230;-140 200;0 230"
+					keyTimes="0; .4; 1"
+					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+					repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+</div>
 </body>
 </html>
