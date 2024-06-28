@@ -9,13 +9,13 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 	<link rel="manifest" href="assets/site.webmanifest">
-	<title>&#128075; Привет гость!</title>
-<script defer src="main.993a9ec4674b6a8b371f.js"></script></head>
-<body class="login__body">
-<main class="login__main container">
-	<div class="login__wrap">
-		<h1 class="login__title">Добро пожаловать в <span lang="en">Clients</span></h1>
-		<p class="login__text">
+	<title>&#128075; Привет !</title>
+<script defer src="main.903f662e1a0b595b08d2.js"></script></head>
+<body class="auth__body">
+<main class="auth__main container">
+	<div class="auth__wrap-text">
+		<h1 class="auth__title">Добро пожаловать в <span lang="en">Clients</span></h1>
+		<p class="auth__text">
 			Мое приложение предназначено для удобной и эффективной записи клиентов в барбершоп. Теперь вы
 			можете забыть о бумажных журналах и неудобных звонках для записи. С помощью Clients
 			вы сможете легко и быстро создавать профили клиентов, записывать их на удобное для них время и
@@ -25,9 +25,9 @@
 			на потом, используйте мое приложение и улучшайте свой бизнес уже сегодня!
 		</p>
 	</div>
-	<form action="/" class="login__form">
-		<h2 class="visually-hidden">Форма для входа или регистрации</h2>
-		<h3 class="login__form-title">Вход</h3>
+	<form action="/" class="auth__form">
+		<h2 class="visually-hidden">Форма для входа</h2>
+		<h3 class="auth__form-title">Вход</h3>
 
 		<p>
 			<label for="username" class="visually-hidden">Имя пользователя</label>
@@ -51,6 +51,14 @@
 			<span class="hidden">
 				<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
 						 xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M11.9998 2.5C7.80915 2.5 4.80625 4.84327 2.90277 7.0685C1.75082 8.41516 0.784974 9.9348 0.0778624 11.5618C-0.0226214 11.793 -0.026017 12.0548 0.0686626 12.2885C0.738203 13.9407 1.67953 15.4881 2.81769 16.8577C4.70132 19.1243 7.70679 21.5 11.9998 21.5C16.2929 21.5 19.2983 19.1243 21.182 16.8577C22.3201 15.4881 23.2614 13.9407 23.931 12.2885C24.0257 12.0548 24.0222 11.793 23.9219 11.5617C23.2116 9.92407 22.2616 8.43011 21.0969 7.0685C19.1934 4.84327 16.1905 2.5 11.9998 2.5ZM15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12Z"
+							fill="#000000" />
+				</svg>
+			</span>
+			<span>
+				<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+						 xmlns="http://www.w3.org/2000/svg">
 				<g clip-path="url(#clip0_1383_124922)">
 					<path fill-rule="evenodd" clip-rule="evenodd"
 								d="M23.3533 1.35352C23.7438 1.74404 23.7438 2.37721 23.3533 2.76773L2.76748 23.3535C2.37696 23.744 1.7438 23.744 1.35327 23.3535L0.646164 22.6464C0.25564 22.2559 0.255641 21.6227 0.646165 21.2322L3.87169 18.0067C2.73572 16.8882 1.8787 15.6816 1.27296 14.6799C0.867402 14.0092 0.568856 13.421 0.370367 12.9971C0.27101 12.785 0.196402 12.6133 0.145717 12.4922C0.120366 12.4317 0.100973 12.3838 0.0874364 12.3497L0.0715024 12.3091L0.0667999 12.2969L0.0652601 12.2928L0.0646926 12.2913C0.0646926 12.2913 0.0642597 12.2902 0.999765 11.9371L0.0739539 11.5593L0.0743572 11.5583L0.0754044 11.5557L0.0784618 11.5483L0.0884377 11.5245C0.0968071 11.5046 0.108623 11.4769 0.123909 11.4419C0.154474 11.372 0.198955 11.2727 0.257542 11.1484C0.374643 10.8998 0.548544 10.55 0.780854 10.1325C1.24425 9.29981 1.94654 8.18638 2.90279 7.0685C4.80627 4.84327 7.80917 2.5 11.9998 2.5C14.2445 2.5 16.1542 3.17475 17.7342 4.14417L21.2319 0.646409C21.6225 0.255885 22.2556 0.255885 22.6462 0.646409L23.3533 1.35352ZM8.70226 13.1761L13.1759 8.70251C12.8083 8.57139 12.4124 8.5 11.9998 8.5C10.0668 8.5 8.49976 10.067 8.49976 12C8.49976 12.4126 8.57115 12.8085 8.70226 13.1761Z"
@@ -70,14 +78,7 @@
 					<rect width="24" height="24" fill="white" />
 					</clipPath>
 				</defs>
-			</svg></span>
-			<span>
-				<svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
-						 xmlns="http://www.w3.org/2000/svg">
-				<path fill-rule="evenodd" clip-rule="evenodd"
-							d="M11.9998 2.5C7.80915 2.5 4.80625 4.84327 2.90277 7.0685C1.75082 8.41516 0.784974 9.9348 0.0778624 11.5618C-0.0226214 11.793 -0.026017 12.0548 0.0686626 12.2885C0.738203 13.9407 1.67953 15.4881 2.81769 16.8577C4.70132 19.1243 7.70679 21.5 11.9998 21.5C16.2929 21.5 19.2983 19.1243 21.182 16.8577C22.3201 15.4881 23.2614 13.9407 23.931 12.2885C24.0257 12.0548 24.0222 11.793 23.9219 11.5617C23.2116 9.92407 22.2616 8.43011 21.0969 7.0685C19.1934 4.84327 16.1905 2.5 11.9998 2.5ZM15.5 12C15.5 13.933 13.933 15.5 12 15.5C10.067 15.5 8.5 13.933 8.5 12C8.5 10.067 10.067 8.5 12 8.5C13.933 8.5 15.5 10.067 15.5 12Z"
-							fill="#000000" />
-				</svg>
+			</svg>
 			</span>
 		</p>
 
@@ -95,13 +96,13 @@
 			</ul>
 		</fieldset>
 
-		<p class="login__form-checkbox">
+		<p class="auth__form-checkbox">
 			<label for="remember">Запомнить меня</label>
 			<input type="checkbox" name="remember" id="remember" checked>
 		</p>
 
 		<button
-			class="login__form-submit"
+			class="auth__form-submit"
 			type="submit"
 		>
 			Войти
@@ -113,57 +114,5 @@
 		</p>
 	</form>
 </main>
-<div class="background-animation">
-	<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-			 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
-		<defs>
-			<linearGradient id="bg">
-				<stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
-				<stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
-				<stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
-			</linearGradient>
-			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
-	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
-		</defs>
-		<g>
-			<use xlink:href='#wave' opacity=".3">
-				<animateTransform
-					attributeName="transform"
-					attributeType="XML"
-					type="translate"
-					dur="10s"
-					calcMode="spline"
-					values="270 230; -334 180; 270 230"
-					keyTimes="0; .5; 1"
-					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-					repeatCount="indefinite" />
-			</use>
-			<use xlink:href='#wave' opacity=".6">
-				<animateTransform
-					attributeName="transform"
-					attributeType="XML"
-					type="translate"
-					dur="8s"
-					calcMode="spline"
-					values="-270 230;243 220;-270 230"
-					keyTimes="0; .6; 1"
-					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-					repeatCount="indefinite" />
-			</use>
-			<use xlink:href='#wave' opacity=".9">
-				<animateTransform
-					attributeName="transform"
-					attributeType="XML"
-					type="translate"
-					dur="6s"
-					calcMode="spline"
-					values="0 230;-140 200;0 230"
-					keyTimes="0; .4; 1"
-					keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
-					repeatCount="indefinite" />
-			</use>
-		</g>
-	</svg>
-</div>
 </body>
 </html>

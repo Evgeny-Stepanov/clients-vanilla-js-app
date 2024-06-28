@@ -1,6 +1,6 @@
 import "@babel/polyfill";
 import "./index.html";
-import "./login.html";
+import "./auth.html";
 import "./index.scss";
 
 import example from "./img/img-png.png";

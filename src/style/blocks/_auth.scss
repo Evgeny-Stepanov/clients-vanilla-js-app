@@ -1,21 +1,22 @@
-.login__body {
+.auth__body,
+.auth__main {
 	display: flex;
+}
+
+.auth__body {
 	align-items: center;
-	color: var(--color-accent);
 }
 
-.login__main {
-	color: var(--color-dark-theme);
-	background-color: var(--color-light-theme-theme);
-	display: flex;
-	gap: 150px;
+.auth__main {
+	justify-content: space-between;
+	gap: 100px;
 }
 
-.login__wrap {
-	width: 60%;
+.auth__wrap-text {
+	width: 50%;
 }
 
-.login__title {
+.auth__title {
 	font-size: calc(var(--font-size) * 2);
 	margin-block-end: calc(var(--font-size) * 1.25);
 
@@ -26,12 +27,12 @@
 	}
 }
 
-.login__text {
+.auth__text {
 	line-height: calc(var(--line-height) * 1.172);
 }
 
-.login__form {
-	width: 40%;
+.auth__form {
+	width: 35%;
 	padding: 30px;
 	border: 2px solid var(--color-gray);
 	border-radius: var(--border-radius-large);
@@ -106,13 +107,13 @@
 	}
 }
 
-.login__form-title {
+.auth__form-title {
 	font-size: calc(var(--font-size) * 2);
 	margin-block-end: calc(var(--font-size) * 1.5);
 	text-align: center;
 }
 
-	.login__form .login__form-checkbox {
+	.auth__form .auth__form-checkbox {
 		display: flex;
 		align-items: center;
 		gap: 10px;
@@ -126,7 +127,7 @@
 		}
 	}
 
-	.login__form-submit {
+	.auth__form-submit {
 		display: flex;
 		justify-content: center;
 		align-items: center;
